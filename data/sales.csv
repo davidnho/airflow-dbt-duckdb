@@ -1,0 +1,6 @@
+order_id,customer_id,product,quantity,price,order_date
+1,101,Laptop,1,800,2025-01-01
+2,102,Mouse,2,25,2025-01-02
+3,103,Keyboard,1,50,2025-01-03
+4,104,Monitor,1,200,2025-01-04
+5,101,Mouse,3,25,2025-01-05
