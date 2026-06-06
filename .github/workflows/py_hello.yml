@@ -20,6 +20,3 @@ jobs:
       - name: Show main folder path
         run: echo "Repo root is: ${{ github.workspace }}"
 
-      - name: Show Path
-        run: |
-          python scripts/check_paths.py
