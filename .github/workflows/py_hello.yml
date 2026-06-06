@@ -17,9 +17,9 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run Python
-        run: |
-          python -c "print('Hello from GitHub Actions!')"
+      # - name: Run Python
+      #   run: |
+      #     python -c "print('Hello from GitHub Actions!')"
 
       - name: Show Path
         run: |
