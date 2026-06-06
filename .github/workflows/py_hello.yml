@@ -17,9 +17,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      # - name: Run Python
-      #   run: |
-      #     python -c "print('Hello from GitHub Actions!')"
+      - name: Show main folder path
+        run: echo "Repo root is: ${{ github.workspace }}"
 
       - name: Show Path
         run: |
