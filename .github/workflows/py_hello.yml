@@ -1,7 +1,7 @@
 name: Python Hello World
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,8 +15,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Show main folder path
-        run: echo "Repo root is: ${{ github.workspace }}"
-
+        run: echo "Repo root is ${{ github.workspace }}"
