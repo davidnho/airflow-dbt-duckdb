@@ -52,7 +52,7 @@ jobs:
 
       - name: Load CSV into DuckDB
         run: |
-          python scripts/load_csv.py
+          python ${{ github.workspace }} + "/" + scripts/load_csv.py
 
       - name: Verify DuckDB Database Created
         run: |
